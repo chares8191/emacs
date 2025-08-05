@@ -10,8 +10,8 @@
 ;; global config file
 (load (expand-file-name "init-global.el" user-emacs-directory))
 
-;; ;; local config file
-;; (load (expand-file-name "init-local.el" user-emacs-directory))
+;; path config file
+(load (expand-file-name "init-path.el" user-emacs-directory))
 
 ;; ;; emacs custom settings file
 ;; (setq custom-file
@@ -30,7 +30,7 @@
 (find-file (expand-file-name "init-user.el" user-emacs-directory))
 (find-file (expand-file-name "init-packages.el" user-emacs-directory))
 (find-file (expand-file-name "init-custom.el" user-emacs-directory))
-(find-file (expand-file-name "init-local.el" user-emacs-directory))
+(find-file (expand-file-name "init-path.el" user-emacs-directory))
 (find-file (expand-file-name "init-global.el" user-emacs-directory))
 (find-file (expand-file-name "init-early.el" user-emacs-directory))
 (find-file (expand-file-name "init.el" user-emacs-directory))
