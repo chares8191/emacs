@@ -13,6 +13,9 @@
 ;; path config file
 (load (expand-file-name "init-path.el" user-emacs-directory))
 
+(use-package gruvbox-theme)
+(load-theme 'gruvbox-dark-soft t)
+
 ;; ;; emacs custom settings file
 ;; (setq custom-file
 ;;       (expand-file-name "init-custom.el" user-emacs-directory))

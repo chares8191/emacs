@@ -14,7 +14,7 @@
 ;; default tab width
 (setq-default tab-width 4)
 
-;; user interface
+;; line numbers mode
 (when (> emacs-major-version 26)
   (global-display-line-numbers-mode))
 
