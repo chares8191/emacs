@@ -8,3 +8,5 @@
 (defvar path:user
   (expand-file-name
    (directory-file-name (concat user-emacs-directory "user"))))
+
+(provide 'init-path)

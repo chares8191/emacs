@@ -28,3 +28,5 @@
 (setq use-package-always-ensure t)
 (setq use-package-verbose t)
 (setq straight-use-package-by-default t)
+
+(provide 'init-package-settings)
