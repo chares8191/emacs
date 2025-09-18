@@ -13,9 +13,12 @@
 ;; [init-load] /packages
 (load (expand-file-name "init-load-packages.el" user-emacs-directory))
 
+;; [init-load] /chares
+(load (expand-file-name "init-load-chares.el" user-emacs-directory))
+
 (add-hook 'emacs-lisp-mode-hook 'eldoc-mode)
 
-;; init-load /startup
+;; [init-load] /startup
 (find-file (expand-file-name ".zshrc" (directory-file-name (getenv "HOME"))))
 (find-file (expand-file-name "init.el" user-emacs-directory))
 (find-file user-emacs-directory)
