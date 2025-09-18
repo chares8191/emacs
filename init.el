@@ -19,9 +19,7 @@
 (add-hook 'emacs-lisp-mode-hook 'eldoc-mode)
 
 ;; [init-load] /startup
-(find-file (expand-file-name ".zshrc" (directory-file-name (getenv "HOME"))))
-(find-file (expand-file-name "init.el" user-emacs-directory))
-(find-file user-emacs-directory)
+(load (expand-file-name "init-load-startup.el" user-emacs-directory))
 
 ;; startup time to messages buffer
 (message "emacs init time %s" (emacs-init-time))
