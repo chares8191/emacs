@@ -1,3 +1,4 @@
+;; [init-load] /straight
 (package-initialize)
 
 (require 'package)
@@ -29,4 +30,5 @@
 (setq use-package-verbose t)
 (setq straight-use-package-by-default t)
 
-(provide 'init-package-settings)
+(message "[init-load] /straight loaded")
+(provide 'init-load-straight)
