@@ -1,4 +1,6 @@
 ;; [init-load] /packages
+(message "[init-load] loading /packages")
+
 (add-to-list 'load-path (expand-file-name "packages" user-emacs-directory))
 
 (require 'init-gruvbox)
@@ -6,7 +8,8 @@
 (require 'init-elisp-autofmt)
 (require 'init-osm)
 (require 'init-company)
+(require 'init-keycast)
 (require 'init-sokoban)
 
-(message "[init-load] /packages loaded")
+(message "[init-load] loaded /packages")
 (provide 'init-load-packages)

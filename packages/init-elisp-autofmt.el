@@ -1,4 +1,4 @@
-;; elisp-autofmt
+;; [.emacs.d/packages] init-elisp-autofmt
 (use-package
  elisp-autofmt
  :commands (elisp-autofmt-mode elisp-autofmt-buffer)

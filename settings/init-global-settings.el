@@ -1,3 +1,5 @@
+;; [.emacs.d/settings] init-global-settings
+
 (setq inhibit-scratch-message nil)
 (setq pop-up-windows nil)
 

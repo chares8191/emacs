@@ -1,8 +1,6 @@
-(use-package yasnippet
-  :config
-  (yas-global-mode 1))
+;; [.emacs.d/packages] init-yasnippet
+(use-package yasnippet :config (yas-global-mode 1))
 
-(use-package yasnippet-snippets
-  :requires yasnippet)
+(use-package yasnippet-snippets :requires yasnippet)
 
 (provide 'init-yasnippet)

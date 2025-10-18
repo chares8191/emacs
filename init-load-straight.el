@@ -1,4 +1,6 @@
 ;; [init-load] /straight
+(message "[init-load] loading /straight")
+
 (package-initialize)
 
 (require 'package)
@@ -30,5 +32,5 @@
 (setq use-package-verbose t)
 (setq straight-use-package-by-default t)
 
-(message "[init-load] /straight loaded")
+(message "[init-load] loaded /straight")
 (provide 'init-load-straight)

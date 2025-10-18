@@ -1,4 +1,4 @@
-;; osm
+;; [.emacs.d/packages] init-osm
 (use-package
  osm
  :bind ("C-c m" . osm-prefix-map) ;; Alternatives: `osm-home' or `osm'
