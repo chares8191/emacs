@@ -1,12 +1,10 @@
 ;; [init-load] /straight
 (message "[init-load] loading /straight")
 
-(package-initialize)
-
-(require 'package)
-
-(add-to-list 'package-archives '("gnu" . "https://elpa.gnu.org/packages/") t)
-(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+;; (package-initialize)
+;; (require 'package)
+;; (add-to-list 'package-archives '("gnu" . "https://elpa.gnu.org/packages/") t)
+;; (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
 
 (defvar bootstrap-version)
 (let ((bootstrap-file

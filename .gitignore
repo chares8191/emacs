@@ -13,3 +13,4 @@ elpa/gnupg
 straight/build
 straight/build-cache.el
 straight/repos
+url/cache
