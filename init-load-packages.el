@@ -10,6 +10,7 @@
 (require 'init-company)
 (require 'init-keycast)
 (require 'init-sokoban)
+(require 'init-rust-mode)
 
 (message "[init-load] loaded /packages")
 (provide 'init-load-packages)
