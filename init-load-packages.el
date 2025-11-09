@@ -11,6 +11,7 @@
 (require 'init-keycast)
 (require 'init-sokoban)
 (require 'init-rust-mode)
+(require 'init-json-mode)
 
 (message "[init-load] loaded /packages")
 (provide 'init-load-packages)
