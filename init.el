@@ -16,8 +16,6 @@
 ;; [init-load] /chares
 (load (expand-file-name "init-load-chares.el" user-emacs-directory))
 
-(add-hook 'emacs-lisp-mode-hook 'eldoc-mode)
-
 ;; [init-load] /startup
 (load (expand-file-name "init-load-startup.el" user-emacs-directory))
 

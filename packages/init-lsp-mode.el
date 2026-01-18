@@ -1,6 +1,7 @@
 ;; [.emacs.d/packages] init-lsp-mode
 
 (use-package lsp-mode
+  :straight t
   :commands
   (lsp lsp-deferred)
   :hook
@@ -16,6 +17,7 @@
   (lsp-bash-allowed-shells '(sh bash zsh)))
 
 (use-package lsp-ui
+  :straight t
   :after lsp-mode
   :hook (lsp-mode . lsp-ui-mode))
 

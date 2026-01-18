@@ -5,10 +5,11 @@
 
 (require 'init-sokoban)
 (require 'init-gruvbox)
-
 (require 'init-keycast)
+
 (require 'init-elisp-autofmt)
 (require 'init-emacs-lisp-modes)
+(require 'init-paredit-mode)
 (require 'init-rust-mode)
 (require 'init-json-mode)
 
