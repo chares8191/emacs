@@ -11,7 +11,9 @@
    (toml-ts-mode . lsp-deferred)
    (lsp-mode . lsp-enable-which-key-integration))
   :custom
-  (lsp-keymap-prefix "C-c l"))
+  (lsp-keymap-prefix "C-c l")
+  (lsp-auto-guess-root t)
+  (lsp-bash-allowed-shells '(sh bash zsh)))
 
 (use-package lsp-ui
   :after lsp-mode
