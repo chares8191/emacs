@@ -1,10 +1,5 @@
-;; [init-load] /straight
-(message "[init-load] loading /straight")
-
-;; (package-initialize)
-;; (require 'package)
-;; (add-to-list 'package-archives '("gnu" . "https://elpa.gnu.org/packages/") t)
-;; (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+;; [init-load][emacsdir/straight] :: init-load-straight
+(message "[init-load][emacsdir/straight] :: started")
 
 (defvar bootstrap-version)
 (let ((bootstrap-file
@@ -30,5 +25,5 @@
 (setq use-package-verbose t)
 (setq straight-use-package-by-default t)
 
-(message "[init-load] loaded /straight")
+(message "[init-load][emacsdir/straight] :: complete")
 (provide 'init-load-straight)

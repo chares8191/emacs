@@ -1,0 +1,3 @@
+[submodule "packages/mode-minder"]
+	path = packages/mode-minder
+	url = git@github.com:jdtsmith/mode-minder.git

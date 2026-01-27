@@ -1,7 +1,7 @@
-;; [init-load] /packages
-(message "[init-load] loading /packages")
+;; [init-load][emacsdir/packages] :: init-load-packages
+(message "[init-load][emacsdir/packages] :: started")
 
-(add-to-list 'load-path (expand-file-name "packages" user-emacs-directory))
+(add-to-list 'load-path (directory-file-name emacsdir/packages))
 
 (require 'init-sokoban)
 (require 'init-gruvbox)
@@ -18,5 +18,7 @@
 (require 'init-lsp-mode)
 (require 'init-osm)
 
-(message "[init-load] loaded /packages")
+(require 'init-mode-minder)
+
+(message "[init-load][emacsdir/packages] :: complete")
 (provide 'init-load-packages)

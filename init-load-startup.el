@@ -1,9 +1,9 @@
-;; [init-load] /startup
-(message "[init-load] loading /startup")
+;; [init-load][emacsdir/startup] :: init-load-startup
+(message "[init-load][emacsdir/startup] :: started")
 
-(add-to-list 'load-path (expand-file-name "startup" user-emacs-directory))
+(add-to-list 'load-path (directory-file-name emacsdir/startup))
 
 (require 'init-startup-buffers)
 
-(message "[init-load] loaded /startup")
+(message "[init-load][emacsdir/startup] :: complete")
 (provide 'init-load-startup)
