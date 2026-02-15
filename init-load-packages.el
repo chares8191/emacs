@@ -11,7 +11,9 @@
 (require 'init-emacs-lisp-modes)
 (require 'init-paredit-mode)
 (require 'init-rust-mode)
+(require 'init-haskell-mode)
 (require 'init-json-mode)
+(require 'init-agda-mode)
 
 (require 'init-yasnippet)
 (require 'init-company)

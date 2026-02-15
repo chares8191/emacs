@@ -6,6 +6,9 @@
   (lsp lsp-deferred)
   :hook
   ((sh-mode . lsp-deferred)
+   (haskell-mode . lsp-deferred)
+   (haskell-literate-mode . lsp-deferred)
+   (haskell-ts-mode . lsp-deferred)
    (rust-mode . lsp-deferred)
    (rust-ts-mode . lsp-deferred)
    (toml-mode . lsp-deferred)
