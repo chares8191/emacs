@@ -1,3 +1,6 @@
 [submodule "packages/mode-minder"]
 	path = packages/mode-minder
 	url = git@github.com:jdtsmith/mode-minder.git
+[submodule "packages/haskell-style-guide"]
+	path = packages/haskell-style-guide
+	url = git@github.com:tibbe/haskell-style-guide.git
