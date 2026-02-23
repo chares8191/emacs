@@ -1,4 +1,4 @@
-;; [.emacs.d/settings] init-global-settings
+;; [emacsdir/settings] init-global-settings
 
 ;; UTF-8 as default encoding
 (set-language-environment "utf-8")
@@ -12,6 +12,7 @@
 (setq-default tab-width 4)
 (setq-default column-number-mode 1)
 (setq-default blink-cursor-mode 0)
+(setq-default show-paren-mode 1)
 (setq-default require-final-newline 1)
 
 ;; line numbers mode

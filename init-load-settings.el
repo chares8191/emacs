@@ -1,12 +1,11 @@
-;; [init-load][emacsdir/settings] :: init-load-settings
-(message "[init-load][emacsdir/settings] :: started")
+;; [emacsdir] init-load-settings
+(message "[emacsdir] init-load-settings :: started")
 
 (add-to-list 'load-path (directory-file-name emacsdir/settings))
 
 (require 'init-frame-settings)
 (require 'init-global-settings)
 (require 'init-bindkey-settings)
-(require 'init-emacs-lisp-mode-settings)
 
-(message "[init-load][emacsdir/settings] :: complete")
+(message "[emacsdir] init-load-settings :: complete")
 (provide 'init-load-settings)

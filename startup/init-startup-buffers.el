@@ -1,5 +1,4 @@
-;; startup/init-startup-buffers
-
+;; [emacsdir/startup] init-startup-buffers
 
 (find-file (expand-file-name (getenv "ZSHENV_FILE")))
 (find-file (expand-file-name (getenv "ZSHRC_FILE")))

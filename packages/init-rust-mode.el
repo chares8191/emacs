@@ -1,17 +1,22 @@
-;; [.emacs.d/packages] init-rust-mode
+;; [emacsdir/packages] init-rust-mode
 
 (use-package cargo
   :straight t
   :commands (cargo-minor-mode))
 
 (use-package toml-mode
-  :straight t)
+  :straight t
+  :hook
+  ((toml-mode . cargo-minor-mode)
+   (toml-mode . lsp-deferred)
+   (toml-ts-mode . lsp-deferred)))
 
 (use-package rust-mode
   :straight t
-  :init
-  (add-hook 'rust-mode-hook 'cargo-minor-mode)
-  (add-hook 'toml-mode-hook 'cargo-minor-mode)
+  :hook
+  ((rust-mode . cargo-minor-mode)
+   (rust-mode . lsp-deferred)
+   (rust-ts-mode . lsp-deferred))
   :config
   (setq rust-format-on-save t)
   (setq rust-indent-method-chain t))

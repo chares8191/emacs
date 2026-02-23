@@ -1,9 +1,9 @@
-;; [init-load][emacsdir/chares] :: init-load-chares
-(message "[init-load][emacsdir/chares] :: started")
+;; [emacsdir] init-load-chares
+(message "[emacsdir] init-load-chares :: started")
 
 (add-to-list 'load-path (directory-file-name emacsdir/chares))
 
 (require 'chares-convert-to-geo)
 
-(message "[init-load][emacsdir/chares] :: complete")
+(message "[emacsdir] init-load-chares :: complete")
 (provide 'init-load-chares)

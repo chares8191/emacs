@@ -1,4 +1,4 @@
-;; [.emacs.d/packages] init-json-mode
+;; [emacsdir/packages] init-json-mode
 
 (use-package json-mode
   :straight t

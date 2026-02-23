@@ -1,5 +1,5 @@
-;; [init-load][emacsdir/straight] :: init-load-straight
-(message "[init-load][emacsdir/straight] :: started")
+;; [emacsdir] init-load-straight
+(message "[emacsdir] init-load-straight :: started")
 
 (defvar bootstrap-version)
 (let ((bootstrap-file
@@ -18,12 +18,8 @@
   (load bootstrap-file nil 'nomessage))
 
 (straight-use-package 'use-package)
+(use-package straight
+  :custom (straight-use-package-by-default t))
 
-(eval-when-compile (require 'use-package))
-
-(setq use-package-always-ensure t)
-(setq use-package-verbose t)
-(setq straight-use-package-by-default t)
-
-(message "[init-load][emacsdir/straight] :: complete")
+(message "[emacsdir] init-load-straight :: complete")
 (provide 'init-load-straight)

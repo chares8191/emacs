@@ -1,4 +1,5 @@
-;; [.emacs.d/packages] init-sokoban
+;; [emacsdir/packages] init-sokoban
+
 (use-package sokoban
   :straight t)
 

@@ -1,5 +1,5 @@
-;; [init-load][emacsdir/const] :: init-load-const
-(message "[init-load][emacsdir/const] :: started")
+;; [emacsdir] init-load-const
+(message "[emacsdir] init-load-const :: started")
 
 (defconst emacsdir
   (file-name-as-directory
@@ -41,5 +41,12 @@
 	 (directory-file-name user-emacs-directory)
 	 (directory-file-name "startup")))))
 
-(message "[init-load][emacsdir/const] :: complete")
+(defconst emacsdir/snippets
+  (file-name-as-directory
+   (expand-file-name
+	(file-name-concat
+	 (directory-file-name user-emacs-directory)
+	 (directory-file-name "snippets")))))
+
+(message "[emacsdir] init-load-const :: complete")
 (provide 'init-load-const)

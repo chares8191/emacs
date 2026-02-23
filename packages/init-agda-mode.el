@@ -1,4 +1,4 @@
-;; [.emacs.d/packages] init-agda-mode
+;; [emacsdir/packages] init-agda-mode
 
 (let ((agda-file
        (car

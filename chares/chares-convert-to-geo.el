@@ -1,3 +1,5 @@
+;; [emacsdir/chares] chares-convert-to-geo
+
 (defun chares-convert-to-geo (coords)
   (interactive "sCoordinates: ")
   (let* ((parts (split-string coords " "))

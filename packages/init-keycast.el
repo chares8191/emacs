@@ -1,4 +1,5 @@
-;; [.emacs.d/packages] init-keycast
+;; [emacsdir/packages] init-keycast
+
 (use-package keycast
   :straight t)
 
