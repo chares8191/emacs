@@ -8,6 +8,7 @@
   (lsp-restart 'auto-restart)
   (lsp-keymap-prefix "C-c l")
   (lsp-auto-guess-root t)
+  (lsp-eldoc-enable-hover nil)
   (lsp-bash-allowed-shells '(sh bash zsh)))
 
 (use-package lsp-ui
