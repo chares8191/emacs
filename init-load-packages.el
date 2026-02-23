@@ -14,10 +14,11 @@
 (require 'init-lsp-mode)
 
 (require 'init-lisp-mode)
-(require 'init-json-mode)
-(require 'init-agda-mode)
 (require 'init-rust-mode)
 (require 'init-haskell-mode)
+(require 'init-agda-mode)
+(require 'init-lean4-mode)
+(require 'init-json-mode)
 
 (message "[emacsdir] init-load-packages :: complete")
 (provide 'init-load-packages)
