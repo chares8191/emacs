@@ -48,5 +48,12 @@
 	 (directory-file-name user-emacs-directory)
 	 (directory-file-name "snippets")))))
 
+(defconst emacsdir/mode-samples
+  (file-name-as-directory
+   (expand-file-name
+	(file-name-concat
+	 (directory-file-name user-emacs-directory)
+	 (directory-file-name "mode-samples")))))
+
 (message "[emacsdir] init-load-const :: complete")
 (provide 'init-load-const)
