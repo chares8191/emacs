@@ -9,4 +9,7 @@
 
 (setq auto-mode-alist (cons '("\\.lagda.md$" . agda2-mode) auto-mode-alist))
 
+(use-package agda-lib-mode
+  :straight t)
+
 (provide 'init-agda-mode)
