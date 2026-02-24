@@ -7,7 +7,11 @@
   (when (and agda-file (file-exists-p agda-file))
     (load-file agda-file)))
 
-(setq auto-mode-alist (cons '("\\.lagda.md$" . agda2-mode) auto-mode-alist))
+(setq auto-mode-alist
+	  (append
+	   '(("\\.agda\\'" . agda2-mode)
+		 ("\\.lagda.md\\'" . agda2-mode))
+	   auto-mode-alist))
 
 (use-package agda-lib-mode
   :straight t)
