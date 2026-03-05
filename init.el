@@ -1,7 +1,7 @@
 ;; [emacsdir] init.el
 
 ;; debugging
-(setq stack-trace-on-error t)
+(setq debug-on-error t)
 
 (defconst emacsdir
   (directory-file-name

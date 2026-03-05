@@ -11,7 +11,7 @@
 (setq-default pop-up-windows nil)
 (setq-default tab-width 4)
 (setq-default column-number-mode 1)
-(setq-default blink-cursor-mode 0)
+(setq-default blink-cursor-mode nil)
 (setq-default show-paren-mode 1)
 (setq-default require-final-newline 1)
 

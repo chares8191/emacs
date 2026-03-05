@@ -4,8 +4,9 @@
   :straight t
   :diminish (yas-global-mode yas-minor-mode)
   :commands (yas-minor-mode)
+  :custom
+  (yas-snippet-dirs (list (directory-file-name emacsdir/snippets)))
   :config
-  (setq yas-snippets-dir '(directory-file-name emacsdir/snippets))
   (yas-initialize)
   (yas-reload-all))
 
@@ -13,6 +14,6 @@
   :straight t
   :after (yasnippet)
   :config
-  (add-to-list 'yas-snippet-dirs yasnippet-snippets-dir))
+  (yasnippet-snippets-initialize))
 
 (provide 'init-yasnippet)
