@@ -3,7 +3,8 @@
 
 (add-to-list 'load-path (directory-file-name emacsdir/chares))
 
-(require 'chares-convert-to-geo)
+(require 'chares-convert-geo)
+(require 'chares-convert-cmyk)
 
 (message "[emacsdir] init-load-chares :: complete")
 (provide 'init-load-chares)

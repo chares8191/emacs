@@ -1,6 +1,6 @@
-;; [emacsdir/chares] chares-convert-to-geo
+;; [emacsdir/chares] chares-convert-geo
 
-(defun chares-convert-to-geo (coords)
+(defun chares/convert-geo (coords)
   (interactive "sCoordinates: ")
   (let* ((parts (split-string coords "[[:space:]]+" t))
          (lat-str (car parts))
@@ -37,4 +37,4 @@
       (message "Converted and copied to clipboard: %s" result)
       result)))
 
-(provide 'chares-convert-to-geo)
+(provide 'chares-convert-geo)

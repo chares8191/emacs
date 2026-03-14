@@ -1,8 +1,9 @@
 ;; [emacsdir/startup] init-startup-window
 
+(setq inhibit-startup-screen t)
+;; (split-window-vertically)
 (dired homedir)
 (split-window-horizontally)
 (dired emacsdir)
-(split-window-vertically)
 
 (provide 'init-startup-window)
