@@ -18,6 +18,6 @@
 (use-package lsp-haskell
   :straight t
   :custom
-  (lsp-haskell-server-path "haskell-language-server"))
+  (lsp-haskell-server-path "haskell-language-server-wrapper"))
 
 (provide 'init-lsp-mode)

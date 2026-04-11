@@ -1,9 +1,10 @@
 ;; [emacsdir/packages] init-agda-mode
 
-(let ((agda-file
-       (car
-        (ignore-errors
-          (process-lines "agda" "--emacs-mode" "locate")))))
+(defun agda-mode-path ()
+  (ignore-errors
+	(process-lines "agda" "--emacs-mode" "locate")))
+
+(let ((agda-file (car (agda-mode-path))))
   (when (and agda-file (file-exists-p agda-file))
     (load-file agda-file)))
 

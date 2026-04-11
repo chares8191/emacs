@@ -2,8 +2,8 @@
 
 (setq inhibit-startup-screen t)
 ;; (split-window-vertically)
-(dired homedir)
-(split-window-horizontally)
 (dired emacsdir)
+(split-window-horizontally)
+(dired homedir)
 
 (provide 'init-startup-window)
