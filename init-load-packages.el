@@ -18,7 +18,7 @@
 (require 'init-rust-mode)
 (require 'init-haskell-mode)
 (require 'init-agda-mode)
-(require 'init-lean4-mode)
+;; (require 'init-lean4-mode)
 (require 'init-yaml-mode)
 (require 'init-json-mode)
 
