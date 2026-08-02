@@ -1,12 +1,14 @@
 ;; [emacsdir/packages] init-haskell-mode
 
 ;; https://github.com/tibbe/haskell-style-guide
-(add-to-list
- 'load-path
- (expand-file-name
-  (directory-file-name "haskell-style-guide")
-  (directory-file-name emacsdir/packages)))
-(require 'haskell-style)
+(defun haskell-style ()
+  "Sets the current buffer to use Haskell Style. Meant to be
+  added to `haskell-mode-hook'"
+  (interactive)
+  (setq tab-width 4
+        haskell-indentation-layout-offset 4
+        haskell-indentation-left-offset 4
+        haskell-indentation-ifte-offset 4))
 
 (use-package haskell-mode
   :straight t

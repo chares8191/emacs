@@ -7,6 +7,7 @@
 (require 'init-frame-settings)
 (require 'init-global-settings)
 (require 'init-bindkey-settings)
+(require 'init-tramp-settings)
 
 (message "[emacsdir] init-load-settings :: complete")
 (provide 'init-load-settings)
