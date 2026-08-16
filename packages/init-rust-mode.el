@@ -8,15 +8,15 @@
   :straight t
   :hook
   ((toml-mode . cargo-minor-mode)
-   (toml-mode . lsp-deferred)
-   (toml-ts-mode . lsp-deferred)))
+   (toml-mode . local-lsp-deferred)
+   (toml-ts-mode . local-lsp-deferred)))
 
 (use-package rust-mode
   :straight t
   :hook
   ((rust-mode . cargo-minor-mode)
-   (rust-mode . lsp-deferred)
-   (rust-ts-mode . lsp-deferred))
+   (rust-mode . local-lsp-deferred)
+   (rust-ts-mode . local-lsp-deferred))
   :config
   (setq rust-format-on-save t)
   (setq rust-indent-method-chain t))

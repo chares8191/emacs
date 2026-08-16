@@ -14,7 +14,7 @@
   :straight t
   :hook
   ((haskell-mode . haskell-style)
-   (haskell-mode . lsp-deferred)
-   (haskell-literate-mode . lsp-deferred)))
+   (haskell-mode . local-lsp-deferred)
+   (haskell-literate-mode . local-lsp-deferred)))
 
 (provide 'init-haskell-mode)

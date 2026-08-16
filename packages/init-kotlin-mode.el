@@ -7,7 +7,7 @@
 (use-package kotlin-mode
   :straight t
   :mode "\\.kts?\\'"
-  :hook (kotlin-mode . lsp-deferred)
+  :hook (kotlin-mode . local-lsp-deferred)
   :custom
   (kotlin-tab-width 4))
 

@@ -11,6 +11,10 @@
   (lsp-eldoc-enable-hover nil)
   (lsp-bash-allowed-shells '(sh bash zsh)))
 
+(defun local-lsp-deferred ()
+  (unless (file-remote-p default-directory)
+	(lsp-deferred)))
+
 (use-package lsp-ui
   :straight t
   :hook (lsp-mode . lsp-ui-mode))
