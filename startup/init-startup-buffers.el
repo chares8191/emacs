@@ -1,4 +1,4 @@
-;; [emacsdir/startup] init-startup-buffers
+;; [emacsdir/startup] init-startup-buffers -*- lexical-binding: t; -*-
 
 (dolist (env-var '("ZSHENV_FILE" "ZSHRC_FILE"))
   (when-let* ((path (getenv env-var))

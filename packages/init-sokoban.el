@@ -1,4 +1,4 @@
-;; [emacsdir/packages] init-sokoban
+;; [emacsdir/packages] init-sokoban -*- lexical-binding: t; -*-
 
 (use-package sokoban
   :straight t)

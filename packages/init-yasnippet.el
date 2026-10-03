@@ -1,4 +1,4 @@
-;; [emacsdir/packages] init-yasnippet
+;; [emacsdir/packages] init-yasnippet -*- lexical-binding: t; -*-
 
 (use-package yasnippet
   :straight t

@@ -1,4 +1,4 @@
-;; [emacsdir/packages] init-kotlin-mode
+;; [emacsdir/packages] init-kotlin-mode -*- lexical-binding: t; -*-
 
 (declare-function lsp-register-client "lsp-mode")
 (declare-function make-lsp-client "lsp-mode")

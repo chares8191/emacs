@@ -1,4 +1,4 @@
-;; [emacsdir/packages] init-rust-mode
+;; [emacsdir/packages] init-rust-mode -*- lexical-binding: t; -*-
 
 (use-package cargo
   :straight t

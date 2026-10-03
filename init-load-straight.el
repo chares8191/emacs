@@ -1,4 +1,4 @@
-;; [emacsdir] init-load-straight
+;; [emacsdir] init-load-straight -*- lexical-binding: t; -*-
 (message "[emacsdir] init-load-straight :: started")
 
 (defvar bootstrap-version)

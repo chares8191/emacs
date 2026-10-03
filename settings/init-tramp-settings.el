@@ -1,4 +1,4 @@
-;; [emacsdir/settings] init-tramp-settings
+;; [emacsdir/settings] init-tramp-settings -*- lexical-binding: t; -*-
 
 (require 'tramp)
 

@@ -1,4 +1,4 @@
-;; [emacsdir] init-load-settings
+;; [emacsdir] init-load-settings -*- lexical-binding: t; -*-
 (message "[emacsdir] init-load-settings :: started")
 
 (add-to-list 'load-path (directory-file-name emacsdir/settings))

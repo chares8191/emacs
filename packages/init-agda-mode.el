@@ -1,4 +1,4 @@
-;; [emacsdir/packages] init-agda-mode
+;; [emacsdir/packages] init-agda-mode -*- lexical-binding: t; -*-
 
 (defun agda-mode-path ()
   (ignore-errors

@@ -1,4 +1,4 @@
-;; [emacsdir] init-load-chares
+;; [emacsdir] init-load-chares -*- lexical-binding: t; -*-
 (message "[emacsdir] init-load-chares :: started")
 
 (add-to-list 'load-path (directory-file-name emacsdir/chares))

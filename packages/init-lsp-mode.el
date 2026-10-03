@@ -1,4 +1,4 @@
-;; [emacsdir/packages] init-lsp-mode
+;; [emacsdir/packages] init-lsp-mode -*- lexical-binding: t; -*-
 
 (use-package lsp-mode
   :straight t

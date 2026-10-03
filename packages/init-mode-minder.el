@@ -1,4 +1,4 @@
-;; [emacsdir/packages] :: init-mode-minder
+;; [emacsdir/packages] :: init-mode-minder -*- lexical-binding: t; -*-
 
 ;; https://github.com/jdtsmith/mode-minder
 (defun mode-minder-path ()

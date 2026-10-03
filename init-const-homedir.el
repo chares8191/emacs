@@ -1,4 +1,4 @@
-;; [emacsdir] init-const-homedir
+;; [emacsdir] init-const-homedir -*- lexical-binding: t; -*-
 (message "[emacsdir] init-const-homedir :: started")
 
 (defconst homedir/local

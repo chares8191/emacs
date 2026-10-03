@@ -1,4 +1,4 @@
-;; [emacsdir/startup] init-startup-window
+;; [emacsdir/startup] init-startup-window -*- lexical-binding: t; -*-
 
 (setq inhibit-startup-screen t)
 ;; (split-window-vertically)

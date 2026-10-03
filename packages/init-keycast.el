@@ -1,4 +1,4 @@
-;; [emacsdir/packages] init-keycast
+;; [emacsdir/packages] init-keycast -*- lexical-binding: t; -*-
 
 (use-package keycast
   :straight t)

@@ -1,4 +1,4 @@
-;; [emacsdir/settings] init-performance-settings
+;; [emacsdir/settings] init-performance-settings -*- lexical-binding: t; -*-
 
 (setq gc-cons-threshold  (* 64 (* 1024 1024)))
 (setq read-process-output-max (* 16 (* 1024 1024)))

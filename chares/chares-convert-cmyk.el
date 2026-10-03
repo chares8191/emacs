@@ -1,4 +1,4 @@
-;; [emacsdir/chares] chares-convert-cmyk
+;; [emacsdir/chares] chares-convert-cmyk -*- lexical-binding: t; -*-
 
 (defun chares/convert-cmyk (c m y k)
   "Convert CMYK to RGB for pastel."

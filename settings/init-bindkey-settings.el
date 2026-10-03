@@ -1,4 +1,4 @@
-;; [emacsdir/settings] init-bindkey-settings
+;; [emacsdir/settings] init-bindkey-settings -*- lexical-binding: t; -*-
 
 ;; regexp search by default
 ;; (global-set-key (kbd "C-s") 'isearch-forward-regexp)

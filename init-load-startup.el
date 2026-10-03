@@ -1,4 +1,4 @@
-;; [emacsdir] init-load-startup
+;; [emacsdir] init-load-startup -*- lexical-binding: t; -*-
 (message "[emacsdir] init-load-startup :: started")
 
 (add-to-list 'load-path (directory-file-name emacsdir/startup))

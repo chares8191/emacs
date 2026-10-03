@@ -1,4 +1,4 @@
-;; [emacsdir/packages] init-lisp-mode
+;; [emacsdir/packages] init-lisp-mode -*- lexical-binding: t; -*-
 
 (use-package paredit
   :straight t

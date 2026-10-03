@@ -1,4 +1,4 @@
-;; [emacsdir] init-const-emacsdir
+;; [emacsdir] init-const-emacsdir -*- lexical-binding: t; -*-
 (message "[emacsdir] init-const-emacsdir :: started")
 
 (defconst emacsdir/straight

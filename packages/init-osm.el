@@ -1,4 +1,4 @@
-;; [emacsdir/packages] init-osm
+;; [emacsdir/packages] init-osm -*- lexical-binding: t; -*-
 
 (use-package osm
   :straight t

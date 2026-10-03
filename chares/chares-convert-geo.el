@@ -1,4 +1,4 @@
-;; [emacsdir/chares] chares-convert-geo
+;; [emacsdir/chares] chares-convert-geo -*- lexical-binding: t; -*-
 
 (defun chares/convert-geo (coords)
   (interactive "sCoordinates: ")

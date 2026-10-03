@@ -1,4 +1,4 @@
-;; [emacsdir/packages] init-haskell-mode
+;; [emacsdir/packages] init-haskell-mode -*- lexical-binding: t; -*-
 
 ;; https://github.com/tibbe/haskell-style-guide
 (defun haskell-style ()

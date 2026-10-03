@@ -1,4 +1,4 @@
-;; [emacsdir] init-load-packages
+;; [emacsdir] init-load-packages -*- lexical-binding: t; -*-
 (message "[emacsdir] init-load-packages :: started")
 
 (add-to-list 'load-path (directory-file-name emacsdir/packages))

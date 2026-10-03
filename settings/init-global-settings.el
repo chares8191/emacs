@@ -1,4 +1,4 @@
-;; [emacsdir/settings] init-global-settings
+;; [emacsdir/settings] init-global-settings -*- lexical-binding: t; -*-
 
 ;; UTF-8 as default encoding
 (set-language-environment "utf-8")

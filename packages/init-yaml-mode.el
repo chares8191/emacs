@@ -1,4 +1,4 @@
-;; [emacsdir/packages] init-yaml-mode
+;; [emacsdir/packages] init-yaml-mode -*- lexical-binding: t; -*-
 
 (use-package yaml-mode
   :straight t

@@ -1,4 +1,4 @@
-;; [emacsdir] init.el
+;; [emacsdir] init.el -*- lexical-binding: t; -*-
 
 ;; debugging
 (setq debug-on-error t)

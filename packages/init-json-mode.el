@@ -1,4 +1,4 @@
-;; [emacsdir/packages] init-json-mode
+;; [emacsdir/packages] init-json-mode -*- lexical-binding: t; -*-
 
 (use-package json-mode
   :straight t

@@ -1,4 +1,4 @@
-;; [emacsdir/packages] init-company
+;; [emacsdir/packages] init-company -*- lexical-binding: t; -*-
 
 (use-package company
   :straight t

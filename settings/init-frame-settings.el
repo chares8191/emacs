@@ -1,4 +1,4 @@
-;; [emacsdir/settings] init-frame-settings
+;; [emacsdir/settings] init-frame-settings -*- lexical-binding: t; -*-
 
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 (add-to-list 'default-frame-alist '(font . "Iosevka Term Semibold 14"))
