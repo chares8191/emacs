@@ -10,4 +10,8 @@
 (global-set-key (kbd "s-<up>") #'beginning-of-buffer)
 (global-set-key (kbd "s-<down>") #'end-of-buffer)
 
+;; org-mode
+(with-eval-after-load 'org
+  (keymap-set org-mode-map "C-c h" #'org-fold-hide-subtree))
+
 (provide 'init-bindkey-settings)

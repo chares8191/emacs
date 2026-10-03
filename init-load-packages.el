@@ -9,6 +9,7 @@
 (require 'init-sokoban)
 (require 'init-show-font)
 (require 'init-osm)
+(require 'init-ox-pandoc)
 
 (require 'init-yasnippet)
 (require 'init-company)
